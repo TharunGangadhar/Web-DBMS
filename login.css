@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-image: url(../images/studyBack.jpg);
+    width: 100%;
+    background-size:cover;
+}
+img{
+    width: 80%;
+    height:44rem;
+}
+h1{
+    color: rgb(168, 168, 179);
+    font-family:monospace;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    position: relative;
+    left: 12rem;
+    min-height: 100vh;
+}
+.login-content ul{
+    display:flex;
+    flex-flow: column;
+}
+.login-content ul ul{
+    display: flex;
+    flex-flow: row;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.login-content ul ul input{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    background:none;
+}
+.login-content ul ul li i{
+    position: relative;
+    left: 2rem;
+    top:10px;
+    color: rgb(120, 112, 197);
+}
+/* .login-content ul ul li input{
+
+} */
+
+#button{
+    margin-left: 2rem;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-image:linear-gradient(to left,#68757c,#2c3e50);
+    color: cornsilk;
+    transition-duration: 0.5s;
+}
+#button:hover{
+    background-image:linear-gradient(to right,#68757c,#2c3e50);
+    text-shadow: 1px 1px whitesmoke;
+    transition-duration: 0.5s;
+}
